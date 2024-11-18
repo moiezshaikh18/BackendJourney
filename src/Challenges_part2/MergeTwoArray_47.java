@@ -42,7 +42,7 @@ public class MergeTwoArray_47 {
         }
 
         while (j<array2.length){
-            MergedArray[k++] = array1[j++];
+            MergedArray[k++] = array2[j++];
         }
 
         return MergedArray;

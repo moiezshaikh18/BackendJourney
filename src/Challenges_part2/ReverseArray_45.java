@@ -11,11 +11,22 @@ public class ReverseArray_45 {
     }
 
     public static int[] ReverseArray(int[] array){
-        int index = array.length- 1;
-        int[] reverse = new int[array.length];
-        for(int item:array){
-            reverse[index --]=item;
+//        int index = array.length- 1;
+//        int[] reverse = new int[array.length];
+//        for(int item:array){
+//            reverse[index --]=item;
+//        }
+//        return reverse;
+
+        //2nd approach
+
+        int i = 0;
+        while(i<array.length/2){
+            int swap = array[i];
+            swap = array[(array.length -1)-i];
+            array[(array.length -1)-i] = swap;
+            i++;
         }
-        return reverse;
+        return array;
     }
 }
