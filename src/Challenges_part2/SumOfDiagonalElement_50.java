@@ -34,7 +34,7 @@ public class SumOfDiagonalElement_50 {
         long sum = 0;
         int i = 0;
         while(i<array.length){
-            int col = array.length - 1 -1;
+            int col = array.length - 1 -i;
             sum = sum + array[i][col];
             i++;
         }
