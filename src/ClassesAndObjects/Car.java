@@ -75,6 +75,11 @@ public class Car {
         return currentFuelInLiters;
     }
 
+//    @Override
+//    protected void finalize() throws Throwable {
+//        System.out.println("Im in finalize");
+//    }
+
     public static void main(String[] args) {
 
 //        Car car;//reference
