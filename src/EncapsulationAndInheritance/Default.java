@@ -1,0 +1,4 @@
+package EncapsulationAndInheritance;
+
+class Default {
+}
