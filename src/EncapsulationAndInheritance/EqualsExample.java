@@ -1,4 +1,6 @@
-//equals and hashcode
+package EncapsulationAndInheritance;//equals and hashcode
+
+import java.util.Objects;
 
 class Person{
     
