@@ -1,8 +1,8 @@
 package AbstractionAndPolymorphism.polymorphism;
 
-public class Plane implements Vehicle{
+public class Plane extends Vehicle {
     @Override
     public void start() {
-        System.out.println("Plane is start...");
+        System.out.println("Plane is taking off...");
     }
 }
