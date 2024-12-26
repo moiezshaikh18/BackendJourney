@@ -1,6 +1,6 @@
 package MultithreadingAndExecutorService.Multi_Threading.ThreadClass;
 
-public class ExtendingThreadClass extends Thread{
+public class ExtendingThreadClass{
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
 
