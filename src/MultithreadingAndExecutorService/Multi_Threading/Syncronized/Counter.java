@@ -4,7 +4,7 @@ public class Counter {
 
     private int count = 1;
 
-    public synchronized void increament() {
+    public synchronized void increment() {
         count++;
     }
 
