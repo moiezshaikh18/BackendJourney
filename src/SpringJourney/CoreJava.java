@@ -89,5 +89,14 @@ public class CoreJava {
                 System.out.println(STR."multi array is: \{array[i][j]}");
             }
         }
+
+        System.out.println("----------------- Array --------------------------");
+
+        int[] num = {1, 12, 15, 54, 5};
+
+        for (int _item : num) {
+            System.out.println("Element of and array : " + _item);
+        }
+
     }
 }
