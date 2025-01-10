@@ -26,8 +26,8 @@ public class CoreJava {
         System.out.println("------------ Conditional Statement -----------------");
 
         int conditionalA = 8;
-        int conz = 6;
-        if (10 > conditionalA && conz > conditionalA) System.out.println("Hello");
+        int cond = 6;
+        if (10 > conditionalA && cond > conditionalA) System.out.println("Hello");
         else {
             System.out.println("bye");
         }
@@ -67,6 +67,27 @@ public class CoreJava {
                 break;
             default:
                 System.out.println("Wrong day input");
+        }
+
+        System.out.println("--------------- multi dimensional array ---------------");
+
+        int [][] multiArray = new int[4][4];
+
+        for(int i = 0 ;i<4;i++){
+            for(int j = 0;j<4;j++){
+                System.out.println(STR."Please enter the row \{i} and coloum \{j}");
+                multiArray [i][j] = input.nextInt();
+            }
+        }
+
+        printArray(multiArray);
+    }
+
+    public static void printArray(int[][] array){
+        for(int i = 0 ;i<4;i++){
+            for(int j = 0;j<4;j++){
+                System.out.println(STR."multi array is: \{array[i][j]}");
+            }
         }
     }
 }
