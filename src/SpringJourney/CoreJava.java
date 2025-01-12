@@ -123,6 +123,9 @@ public class CoreJava {
         System.out.println(sb);
 
         StringBuilder stringBuilder = new StringBuilder(); // not thread safe
+
+        System.out.println("data changes");
+
     }
 
     public static void printArray(int[][] array) {
