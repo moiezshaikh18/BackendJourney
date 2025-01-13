@@ -126,7 +126,7 @@ public class CoreJava {
 
         System.out.println("data changes");
 
-
+        System.out.println("reemerge");
     }
 
     public static void printArray(int[][] array) {
