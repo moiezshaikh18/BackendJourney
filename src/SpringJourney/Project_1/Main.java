@@ -8,6 +8,7 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("This is the main class");
         System.out.println("Please select student or teachers dashboard \n (1).Teachers \n 2).Students)");
         int choice = input.nextInt();
 
