@@ -6,7 +6,7 @@ abstract class Computer {
 
 class Laptop extends Computer {
     public void code() {
-        System.out.println("Coding...Compile...Run");
+        System.out.println("Coding...Compile...Run....");
     }
 }
 
