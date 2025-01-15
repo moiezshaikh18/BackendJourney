@@ -10,7 +10,7 @@ public class QuestionService {
     public void displayQuestions() {
         System.out.println("Teacher, please input the questions:");
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 2; i++) {
 
             questions[i] = new Question();
 
@@ -43,13 +43,11 @@ public class QuestionService {
 
         int score = 0;
 
-        for (int i = 0; i < 4; i++) {
-
-            questions[i] = new Question();
+        for (int i = 0; i < 2; i++) {
             System.out.println(questions[i].getQuestion());
 
             for (String options : questions[i].getOption()) {
-                System.out.println(options);
+                System.out.println(STR."Option \{(char) ('A' + i)}: : ");
             }
 
             String studentAnswer = input.nextLine();
