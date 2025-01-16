@@ -33,5 +33,7 @@ public class FunctionalInterfaceExample {
         A a = i -> System.out.println("this is public interface " + 5);
 
         a.show(5);
+
+        System.out.println("Functional interface");
     }
 }
